@@ -1,0 +1,33 @@
+[project]
+name = "deflatebr"
+version = "0.2.1"
+authors = [
+    { name = "Fernando Meireles", email = "fernando.meireles@iesp.uerj.br" },
+    { name = "Neylson Crepalde", email = "neylsoncrepalde@gmail.com" }
+]
+maintainers = [
+    { name = "Joel Victor Sobrinho", email = "joelvictorsobrinho@gmail.com" }
+]
+description = "Deflate Nominal Brazilian Reais"
+readme = "README.md"
+keywords = ["deflate", "deflation", "economics", "salary", "wage", "finance"]
+license = { text = "MIT" }
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Office/Business :: Financial",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.32.3",
+    "pandas>=2.2.3",
+    "numpy>=2.2.5",
+    "tqdm"
+]
+
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
